@@ -1,0 +1,60 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+<script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+
+
+@if (ViewBag.userRegisterSuccess != null)
+{
+    <div class="alert alert-success mt-3" role="alert">
+        @ViewBag.userRegisterSuccess
+    </div>
+}
+
+@if (ViewBag.loginSuccess != null)
+{
+    <div class="alert alert-success" role="alert">
+        @ViewBag.loginSuccess
+    </div>
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="Map">
+            <div id='map'></div>
+            <script>
+                //my access token
+                mapboxgl.accessToken = 'pk.eyJ1IjoiemF5MG9kIiwiYSI6ImNrZmxkb2UxbjAwbjEycWxobmRland0M24ifQ.u386aSYmGwClias706QDIg';
+                //map object to use the map
+                var map = new mapboxgl.Map({
+                    container: 'map',
+                    style: 'mapbox://styles/mapbox/streets-v11',
+                    zoom: 11,
+                    center: [54.3773, 24.4539]
+                });
+
+                // Add zoom and rotation controls to the map.
+                map.addControl(new mapboxgl.NavigationControl());
+
+            </script>
+
+        </div>
+
+
+    </div>
+</div>
+
+<div class="row container mt-3">
+    <div class="col-md-3 col-md-offset-3">
+        <a href="#" id="ShowBTN" class="btn btn-lg btn-primary">SHOW NEAR FIRES</a>
+    </div>
+    <div class="col-md-6">
+        <input type="file" id="inputUpload" multiple>
+        <a href="#" id="Upload" class="btn btn-lg btn-danger">
+            UPLOAD REPORT
+            @*<svg class="upload_SVG" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M9 16h-8v6h22v-6h-8v-1h9v8h-24v-8h9v1zm11 2c.552 0 1 .448 1 1s-.448 1-1 1-1-.448-1-1 .448-1 1-1zm-7.5 0h-1v-14.883l-4.735 5.732-.765-.644 6.021-7.205 5.979 7.195-.764.645-4.736-5.724v14.884z" /></svg>*@
+        </a>
+    </div>
+</div>
+
+<script src="~/Scripts/app.js"></script>
