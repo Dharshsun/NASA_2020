@@ -9,3 +9,8 @@ Our work:
 https://www.dropbox.com/sh/orus89caep6awkr/AAB0k6w8OaeWLBEZroYQ4E7Ea?dl=0 
 
    Arduino Design:- https://www.tinkercad.com/things/cfzuvAcUN6A 
+Videos:
+30 second clip
+https://www.youtube.com/watch?v=6egnjn0FtpE
+full video
+https://www.youtube.com/watch?v=2zDPyoKDiuY
