@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap');
+
+/*
+    body{
+        font-family: cairo , sans-serif , 'Roboto' ;
+        padding: 14px 130px 40px 130px  ;
+        
+        
+        
+        position: relative;
+        background-image: url('./Img/bak-img2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 660px;
+        width: 100%;
+        color: white;
+        height: 100vh;
+    }
+*/
+    /*.NAV_BAR div{
+       display: flex ;
+        height: 100% ;
+     
+    }
+
+    .NAV_BAR .logo{
+    position: absolute;*/ /* it acts as its not their (in top of everything)*/
+    /*text-decoration: none;
+    font-weight: 700;
+    font-size:36px;
+    color: rgb(231, 231, 231);
+    font-family: cairo;
+    letter-spacing: 3PX;
+    }
+
+
+
+    .logo:hover{
+        color: rgb(214, 159, 144);
+ 
+    }
+
+    .NAV_BAR ul {
+        font-size: 19px;
+        padding-top: 15px;
+        font-family: cairo;
+        display: flex;
+        list-style: none; 
+        justify-content: space-between;
+        margin-left: auto;
+        height: 100%;
+        width: 20%;
+        height: 10vh; 
+    }
+
+    .NAV_BAR ul li a{
+        color: rgb(231, 231, 231);
+        font-weight: 400;       
+        letter-spacing: 2px;
+        text-decoration: none;
+
+    }*/
+/*
+    a.sign:hover{
+  
+        color: rgb(228, 123, 94);
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+
+
+   
+
+
+    .BTN{
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        width: 900px;
+        margin: 19px auto auto auto;
+        padding: 10px;
+        margin-top: 40px; 
+    }
+
+    .BTN a{
+        text-decoration: none;
+        font-family: cairo;
+        letter-spacing: 1px;
+        border: 2px solid #E6E5E7 ;
+        padding: 5px 50px;
+        border-radius: 3px;
+        
+        border-radius: 12px;
+        outline: none;
+        background-color: #ffffff;
+        color: #03634f;
+        font-weight: 700;
+        
+    }
+
+   .upload_SVG{
+        fill: #03634f ;
+      
+        
+        
+    }
+
+    .upload_SVG:hover{
+        fill: #fff ;
+      
+        
+        
+    }
+
+    .BTN a:hover{
+        background-color: rgba(17, 15, 15, 0.616);
+        color:white ; 
+        fill: #fff;
+    }
+
+
+*/
+
+    .Map{
+        
+      
+        
+        width: 100%;
+        height: 450px;
+        margin-top: 50px;
+        background-color: #03635023;
+
+    }
+
+
+
+    #map{
+        border: 3px solid rgba(243, 243, 243, 0.199);
+       
+        border-radius: 10px;
+        width: 100%;
+        height:100%;
+    }
+
+ 
+  #inputUpload{
+    opacity: 0;
+    border: 3px solid rgb(148, 7, 7);
+    position: absolute;
+    z-index:11 ;
+    padding: 10px;
+    cursor: pointer;
+    display: none;
+
+    
+  }
+
+  .mt-3 {
+      margin-top: 30px;
+  }
+
+  .ml-1 {
+      margin-left: 10px;
+  }
+  .pb-3 {
+      padding-bottom: 30px;
+  }
