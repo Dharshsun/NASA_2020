@@ -6,7 +6,7 @@ import numpy as np
 from tqdm import tqdm
 import cv2
 from sklearn.metrics import confusion_matrix
-# eng.Yasmin
+
 
 def Dataset_loader(DIR, RESIZE):
     IMG = []
